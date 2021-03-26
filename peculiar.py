@@ -15,9 +15,9 @@ def misma_paridad(n:int, m:int) -> str:
     else: 
         vr = 'no'
     
-    return print(vr)    
+    return vr
 
-misma_paridad(5,4)
+print(misma_paridad(4,4))
     
 #def alterna_paridad(x:int) -> str:
 

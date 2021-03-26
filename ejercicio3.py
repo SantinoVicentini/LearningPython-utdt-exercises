@@ -1,5 +1,4 @@
 
-
 def f ( x :int , y : int ) -> int :
     x = 2 * x + y
     return x

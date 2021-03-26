@@ -1,2 +1,3 @@
 __pycache__/test.cpython-39.pyc
 __pycache__/unittest.cpython-39.pyc
+node_modules/*
