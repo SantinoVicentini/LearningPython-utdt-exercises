@@ -1,14 +1,8 @@
-def misma_paridad(n:int, m:int) -> bool:
-
-    if n % 2 == 0 and m % 2 == 0 or n % 2 == 1 and m % 2 == 1: 
-        vr = True
-
-    else: 
-        vr = False  
-    
-    return vr
 
 import unittest
+
+from peculiar import misma_paridad
+from peculiar import alterna_paridad
 
 class Misma(unittest.TestCase):
 
@@ -17,11 +11,14 @@ class Misma(unittest.TestCase):
     def test_verdaderos(self):
         self.assertTrue(misma_paridad(2,2))
         self.assertTrue(misma_paridad(3,9))
+        self.assertTrue(alterna_paridad(123450))
+        self.assertTrue(alterna_paridad(0))
         #NUEVO TEST
         
         
     def test_falsos(self):
         self.assertFalse(misma_paridad(2,3))
+        self.assertFalse(alterna_paridad(123455))
         #NUEVO TEST
 
 # esta linea es para correr los test previamente declarados

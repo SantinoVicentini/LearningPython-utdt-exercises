@@ -16,16 +16,12 @@ def misma_paridad(n:int, m:int) -> bool:
 def alterna_paridad(x:int)->bool:
     num:str = str(x)
     vr:bool = True
-    numAnterior:int = int(num[0]) % 2
     
     i:int = 1
     while i < len(num):
-        if numAnterior != int(num[i]) % 2:
-            numAnterior = int(num[i]) % 2
-            i = i + 1
-            vr
-        else:
-            vr = False
-            break
+        vr = vr and (num[i-1] != num[i])
+        
+        i = i + 1
+         
     return vr
-print(alterna_paridad(123455))
+print(alterna_paridad(10122))
