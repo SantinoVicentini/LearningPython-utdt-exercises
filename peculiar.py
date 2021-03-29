@@ -17,9 +17,9 @@ def alterna_paridad(x:int)->bool:
     
     i:int = 1
     while i < len(num):
-        vr = vr and (num[i-1] != num[i])
+        vr = vr and (int(num[i-1]) % 2 != int(num[i]) % 2)
         
         i = i + 1
          
     return vr
-print(alterna_paridad(10121))
+print(alterna_paridad(123455))
