@@ -11,8 +11,8 @@ def misma_paridad(n:int, m:int) -> bool:
 
 print(misma_paridad(1,0))
 
-def alterna_paridad(x:int)->bool:
-    num:str = str(x)
+def alterna_paridad(n:int)->bool:
+    num:str = str(n)
     vr:bool = True
     
     i:int = 1
@@ -23,3 +23,24 @@ def alterna_paridad(x:int)->bool:
          
     return vr
 print(alterna_paridad(123455))
+
+def es_peculiar(n:int)->bool:
+    vr:bool = True
+    vr = vr and (n % 22 == 0 and alterna_paridad(n))
+    return vr
+
+print(es_peculiar(1079))
+
+def n_esimo_peculiar(n:int)->int:
+    vr:int = 0
+    i:int = 0
+    resultadoDeN:int = 0
+    while i < n:
+        n = es_peculiar(n)
+        resultadoDeN = n
+        vr = resultadoDeN
+
+    return vr
+
+print(n_esimo_peculiar())
+
