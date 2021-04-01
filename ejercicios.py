@@ -41,25 +41,24 @@ def es_palindromo(word:str)->bool:
     post: vr va a ser verdadero o falso dependiendo de si la palabra es un palindromo
     '''
     vr:bool = True
-    leng = len(word)
+    lenght = len(word)
     beg:str = word[0]
-    end:str = word[leng - 1]
-    i:int = 0
-    while i < leng:
+    end:str = word[lenght - 1]
+    i:int = 0  
+    while i < lenght:
         if beg == end:
-            print(beg)
             i += 1
             beg = word[i]
-            print(beg)
-            end = word[leng - i]
-            print(end)
-            vr= True
+            lenght = lenght - 1
+            end = word[lenght - 1]
+            vr
         else:
             vr = False
-            break    
-    return vr    
-            
-print(es_palindromo('reconocer'))                
+            break
+    return vr
+
+ 
+print(es_palindromo('oso'))                
 
 
 

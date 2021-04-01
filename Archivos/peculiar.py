@@ -33,13 +33,14 @@ print(es_peculiar(0))
 
 def n_esimo_peculiar(n:int)->int:
     vr:int = 0
-    x = 0
+    contador:int = 0
     i:int = 0
-    while x != n :
+    while contador != n :
         i = i + 1 
         if es_peculiar(i):
-            x = x + 1   
-    return i
+            contador = contador + 1
+            vr:int = i   
+    return vr
 
-print(n_esimo_peculiar(7))
+print(n_esimo_peculiar(1))
 
