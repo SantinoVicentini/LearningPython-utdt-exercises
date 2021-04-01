@@ -22,20 +22,24 @@ def alterna_paridad(n:int)->bool:
         i = i + 1
          
     return vr
-print(alterna_paridad(123455))
+print(alterna_paridad(123))
 
 def es_peculiar(n:int)->bool:
     vr:bool = True
     vr = vr and (n % 22 == 0 and alterna_paridad(n))
     return vr
 
-print(es_peculiar(1079))
+print(es_peculiar(0))
 
 def n_esimo_peculiar(n:int)->int:
     vr:int = 0
+    x = 0
     i:int = 0
-        
-    return vr
+    while x != n :
+        i = i + 1 
+        if es_peculiar(i):
+            x = x + 1   
+    return i
 
-print(n_esimo_peculiar(1))
+print(n_esimo_peculiar(7))
 
