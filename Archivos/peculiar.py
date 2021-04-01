@@ -34,13 +34,8 @@ print(es_peculiar(1079))
 def n_esimo_peculiar(n:int)->int:
     vr:int = 0
     i:int = 0
-    resultadoDeN:int = 0
-    while i < n:
-        n = es_peculiar(n)
-        resultadoDeN = n
-        vr = resultadoDeN
-
+        
     return vr
 
-print(n_esimo_peculiar())
+print(n_esimo_peculiar(1))
 
