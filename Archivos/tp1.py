@@ -7,10 +7,14 @@ def consola():
     numero_ingresado: int = int(sys.argv[2])
 
     if nombre_funcion == 'misma_paridad':
-        if misma_paridad(numero_ingresado, numero_ingresado):
+        numero_ingresado2: int = int(sys.argv[3])
+        if misma_paridad(numero_ingresado, numero_ingresado2):
             print('si')
-        else : 
-            print('no')   
+        else:
+            print('no')
+    elif nombre_funcion == 'cant_peculiares_entre':
+        numero_ingresado2: int = int(sys.argv[3])
+        print(cant_peculiares_entre(numero_ingresado, numero_ingresado2))
     elif nombre_funcion == 'alterna_paridad':
         if alterna_paridad(numero_ingresado):
             print('si')
@@ -24,7 +28,5 @@ def consola():
     elif nombre_funcion == 'n_esimo_peculiar':
         print(n_esimo_peculiar(numero_ingresado))
 
-    elif nombre_funcion == 'cant_peculiares_entre':
-        print(cant_peculiares_entre(numero_ingresado, numero_ingresado))                                        
 
 consola()
