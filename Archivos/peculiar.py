@@ -9,9 +9,15 @@ def misma_paridad(n:int, m:int) -> bool:
     vr = vr and (n % 2 == 0 and m % 2 == 0 or n % 2 == 1 and m % 2 == 1)
     return vr
 
-print(misma_paridad(1,0))
 
 def alterna_paridad(n:int)->bool:
+    '''
+    Especificaciones: determinar si los digitos de un numero alternan su paridad
+    Encabezado: def alterna_paridad(n:int) -> bool
+    Precondiciones: n debe pertenecer a los N + {0}
+    Postcondiciones: vr será 'True' si todos sus digitos alternan su paridad y será 'False' cuando dos digitos consecutivos tengan misma paridad.
+    '''
+
     num:str = str(n)
     vr:bool = True
     
@@ -22,16 +28,27 @@ def alterna_paridad(n:int)->bool:
         i = i + 1
          
     return vr
-print(alterna_paridad(123))
+
 
 def es_peculiar(n:int)->bool:
+    '''
+    Especificaciones: determina un numero peculiar. Un numero peculiar es un 'n' multiplo de 22 y que a su vez sus digitos alternan paridad
+    Encabezado: def es_peculiar(n:int) -> bool
+    Precondiciones: n debe pertenecer a los N + {0}
+    Postcondiciones: vr será 'True' si se trata de un 'numero peculiar' o 'False' si no lo es.
+    '''
     vr:bool = True
     vr = vr and (n % 22 == 0 and alterna_paridad(n))
     return vr
 
-print(es_peculiar(0))
 
 def n_esimo_peculiar(n:int)->int:
+    '''
+    Especificaciones: Determina el n-esimo numero peculiar
+    Encabezado: def n_esimo_peculiar(n:int) -> int
+    Precondiciones: n debe pertenecer a los N + {0}
+    Postcondiciones: vr será el numero peculiar de la posicion 'n'.
+    '''
     vr:int = 0
     contador:int = 0
     i:int = 0
@@ -42,5 +59,20 @@ def n_esimo_peculiar(n:int)->int:
             vr:int = i   
     return vr
 
-print(n_esimo_peculiar(1))
 
+def cant_peculiares_entre(n:int, m:int)->int:
+    '''
+    Especificaciones: Determina la cantidad de numeros peculiares que se encuentran en un rango de n a m inclusive.
+    Encabezado: def cant_peculiares_entre(n:int, m:int) -> int
+    Precondiciones: n y m deben pertenecer a los N + {0}
+    Postcondiciones: vr será la cantidad de numeros peculiares que hay dentro de un rango de n inclusive hasta m inclusive.
+    '''
+    vr:int = 0
+    i:int = n - 1
+    contadorPec:int = 0
+    while i < m:
+        i+=1
+        if es_peculiar(i):
+            contadorPec += 1
+            vr:int = contadorPec
+    return vr

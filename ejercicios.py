@@ -32,7 +32,7 @@ def tabla(x:int):
         print(x)    #x vale 0 por lo tanto es menor que 120, entra al ciclo imprime el valor de x, luego imprime la conversion de f a c de x 
         print(f2c(x))
         x = x + 10    # x pasa a valer 10 xq 0 + 10 = 10 // se repite el ciclo pero ahora con el 10, pasa la verificacion y entra en el ciclo. asi hasta que la x valga 130 y no cumpla la condicion, por lo tanto sale del bucle y no se sigue ejecutando
-tabla(x)       
+#tabla(x)       
    
 def es_palindromo(word:str)->bool:
     '''
@@ -59,6 +59,51 @@ def es_palindromo(word:str)->bool:
 
  
 print(es_palindromo('oso'))                
+
+def es_primo(x:int)->bool:
+    vr:bool = True
+    i:int = 0
+    contador:int = 0
+    while i < x:
+        i +=1
+        if x % i == 0:
+            contador = contador + 1
+        if contador > 2:
+            vr = False
+        else:
+            vr
+    return vr
+
+
+print(es_primo(8))
+
+
+def hola(s)->str:
+    j : int = 1
+    rv = 'si'
+    while j < len(s):
+        if s[j-1] < s[j]:
+            j += 1
+            rv
+        else:
+            rv = 'no'
+            break
+    return rv        
+            
+
+print(hola('acfjkpva'))
+'''
+s : str = 'acfjkpvzqta'
+j : int = 0
+while s [ j ] < s [ j +1] and j <len( s ) -1:
+    j = j + 1
+if j == len( s ) :
+    print ( ' Las letras están ordenadas alfabéticamente ')
+else :
+    print ( ' Las letras no están ordenadas alfabéticamente ')
+
+'''
+
 
 
 

@@ -27,4 +27,3 @@ print("El inverso de", x, "es", inverso(x))#error de sintaxis )
 
 x:float = 1.0#error tiempo de ejecucuion, no se puede dividir por 0 #error de sintaxis o
 print("El inverso de", x, "es", inverso(x))#error de tiempo de ejecucion X
-
