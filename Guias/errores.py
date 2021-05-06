@@ -27,3 +27,6 @@ print("El inverso de", x, "es", inverso(x))#error de sintaxis )
 
 x:float = 1.0#error tiempo de ejecucuion, no se puede dividir por 0 #error de sintaxis o
 print("El inverso de", x, "es", inverso(x))#error de tiempo de ejecucion X
+
+re:list[int] = [0,1,2,3,4,5,6,7,8,9]
+print(False or )

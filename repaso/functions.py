@@ -17,3 +17,4 @@ def abrirArchivo(nombreDeArchivo:str)->list[str]:
 
 abrirArchivo('provincias.csv')
  
+print(11/2)

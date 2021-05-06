@@ -1,4 +1,4 @@
-
+from typing import List
 def f ( x :int , y : int ) -> int :
     x = 2 * x + y
     return x
@@ -118,71 +118,134 @@ else :
 
 #EJERCICIO 3 GUIA 2
 #a 
-'''
+
 def a(n:float)->int:
+    '''
     Covierte a un numero en su parte entera
     pre: n > 0 || n = 0
-    post: vr es igual al resultado de abs(n) que devuelve su parte entera
-'''
+    post: vr es igual al resultado de round(n) que devuelve su parte entera
+    '''
+    vr:int = 0
+    vr = vr + round(n)
+    return vr
+print(a(2.20))
+
 #b
-'''
+
 def b(n:int)->int:
+    '''
     calcula el factorial de n
     pre: n > 0 || n = 0
     post: vr es igual al resultado de la multiplicacion de los numeros
     anteriores a n, incluyendo n
-'''
+    '''
+    vr:int = 1
+    i:int = 1
+    while i <= n:
+        vr = vr * i
+        i+=1
+    return vr
+print(b(5))
+
 #c
-'''
+
 def c(n:int, k:int)->int:
+    '''
     calcula el combinatorio de n y k
     pre: n, k > 0 && k < n || k = n
     post: vr es igual al resultado de la division entre el factorial de n
     y el factorial de k multiplicado n - k
-'''
+    '''
+    vr:int = b(n)//b(k)*(n-k)
+    if n == 0 and k == 0:
+        vr = 1
+    return vr
+print(c(0,0))
 #d
-'''
+
 def d(n:int)->str:
+    '''
     devuelve un string con los valores de n para todo 0 <= i <= n
     pre: n >= 0
     post: vr va a devolver una cadena de strings separadas con comas con los numeros que cumplen esas condiciones
-'''
+    '''
+    vr:str = ''
+    i:int = 0
+    while i <= n:
+        vr = vr + str(i) + ', '
+        i+=1
+    return vr
+print(d(3))
 #e
-'''
+
 def e(n: int)->str:
+    '''
     devuele un string con n asteriscos
     pre: n>=0
     post: vr devuelve un string con n asteriscos
-'''
+    '''
+    vr:str = ''
+    i:int = 0
+    while i < n:
+        vr = vr + '*'
+        i+=1
+    return vr
+print(e(4))
 #f
-'''
+
 def f(n:int)-> str:
+    '''
     toma un n y lo transforma en asteriscos
     pre: n >=0
     post: vr es igual a n = *
-'''
+    '''
+    n:str = '*'
+    vr = n
+    return vr
+print(f(2))
 #g
-'''
+
 def g(s:str)->str:
+    '''
     toma un texto y devuelve la inversa del mismo
     pre: s !null
     post: vr es igual a la inversa de un s dado
-'''
+    '''
+    vr:str = ''
+    i:int = 1
+    while i < len(s):
+        vr = vr + s[len(s)-i]
+        i+=1
+    vr = vr + s[0]
+    return vr
+print(g('soyretarado'))
 #h
-'''
+
 def h(s:str)->int:
+    '''
     toma un texto y cada vez que encuentra una 'a' , le suma uno al contador
     pre: s !null
     post: vr es igual al resultado de la suma de 'a' en s
-'''
+    '''
+    vr:int = 0
+    i:int = 0
+    j=int = 0
+    contador:int = 0
+    while i < len(s):
+        if 'a' == s[i]:
+            contador+=1
+        i+=1
+    vr = contador
+    return vr
+print(h('holaaaa'))
 #i 
 '''
 def i(s:str, t:str)->int:
     cuenta la cantidad de veces que s esta contenido en t y lo suma a un contador
     pre: none
     post: vr es igual a la suma de todas las veces que s esta contenida en t
-'''
 #j
+'''
 '''
 def j(n:int)->str:
     recibe un numero y devuelve su representacion binaria
@@ -244,3 +307,19 @@ if p and q:
 elif not p or q:
     print ( 'B ')
 '''
+def suma_en_pos_impares(l:List[int], n:int) -> List[int]:
+    vr:List[int] = []
+    i:int = 0
+    while i < len(l):
+
+        if i % 2 == 1:
+
+            vr.append(l[i]+n)
+        else:
+
+
+            vr.append(l[i]) 
+        i += 1   
+    return vr
+print(suma_en_pos_impares([1,2,3,4], 2))
+
