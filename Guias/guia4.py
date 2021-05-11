@@ -29,7 +29,7 @@ def listaOrdenada(a:List[int]) -> bool:
         vr = vr and a[i] < a[i-1]
         break
     return vr
-print(listaOrdenada([1,2,0]))
+print(listaOrdenada([1, 3, 2]))
 
 #d)
 def numerosImpares(n:int) -> List[int]:
