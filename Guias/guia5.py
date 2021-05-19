@@ -59,16 +59,20 @@ def consola():
     nombre_funcion:str = sys.argv[1]
     
     if nombre_funcion == 'listaOrdenada':
-        i:int = 2
+        i:int = 0
         lista = []
-        while i < len(sys.argv):
-            lista.append(sys.argv[i])
+        num:str = input('cuantos arg? ')
+        while i < int(num):
+            hola=input('numer? ')
+            lista.append(hola)
             i+=1
         sys.argv.insert(2, lista)
         if permitidosv(lista) and listaOrdenada(lista):
             print('ordenanda')
         elif not permitidosv(lista):
             print('error en el caracter ingresado')
+        elif not listaOrdenada(lista):
+            print('no ordenada')
 
 
 
