@@ -17,7 +17,7 @@ def leer_archivo(file:str) -> List[str]:
 
     return vr
 
-leer_archivo('ejemplo_batalla_freestyle.txt')
+print(leer_archivo('ejemplo_batalla_freestyle.txt'))
 
 
 ###################################################################
