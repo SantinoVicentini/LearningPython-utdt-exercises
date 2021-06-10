@@ -1,0 +1,51 @@
+long,lat,tipo_sitio,id_arbol,altura_tot,diametro,inclinacio,id_especie,nombre_fam,nombre_gen,nombre_cie,nombre_com,tipo_folla,origen,codigo_man,barrio,comuna,calle,chapa1,chapa2
+-58.3890587967,-34.6200256156,Árbol,2430,7,20,17,1,Oleáceas,Fraxinus,Fraxinus pennsylvanica,Fresno americano,Árbol Latifoliado Caducifolio,Exótico,14-017,CONSTITUCION,1,"Calvo, Carlos",1609,0
+-58.389211331700004,-34.6200342718,Árbol,2431,8,33,16,1,Oleáceas,Fraxinus,Fraxinus pennsylvanica,Fresno americano,Árbol Latifoliado Caducifolio,Exótico,14-017,CONSTITUCION,1,"Calvo, Carlos",1617,0
+-58.389268791400006,-34.6200374616,Árbol,2432,2,3,0,9,Oleáceas,Ligustrum,Ligustrum lucidum,Ligustro,Árbol Latifoliado Perenne,Exótico,14-017,CONSTITUCION,1,"Calvo, Carlos",1629,0
+-58.3895252334,-34.6200520397,Árbol,2433,9,17,0,7,Aceráceas,Acer,Acer negundo,Arce negundo,Árbol Latifoliado Caducifolio,Exótico,14-017,CONSTITUCION,1,"Calvo, Carlos",0,0
+-58.389607770299996,-34.6200566868,Árbol,2434,6,13,14,1,Oleáceas,Fraxinus,Fraxinus pennsylvanica,Fresno americano,Árbol Latifoliado Caducifolio,Exótico,14-017,CONSTITUCION,1,"Calvo, Carlos",1655,0
+-58.3896652299,-34.620059966599996,Árbol,2435,3,2,0,28,Rosáceas,Prunus,Prunus cerasifera,Ciruelo de jardín,Árbol Latifoliado Caducifolio,Exótico,14-017,CONSTITUCION,1,"Calvo, Carlos",1661,0
+-58.3897390443,-34.6200641577,Árbol,2436,17,43,10,1,Oleáceas,Fraxinus,Fraxinus pennsylvanica,Fresno americano,Árbol Latifoliado Caducifolio,Exótico,14-017,CONSTITUCION,1,"Calvo, Carlos",0,0
+-58.3898303037,-34.6200693508,Árbol,2437,10,24,10,1,Oleáceas,Fraxinus,Fraxinus pennsylvanica,Fresno americano,Árbol Latifoliado Caducifolio,Exótico,14-017,CONSTITUCION,1,"Calvo, Carlos",1673,0
+-58.389912840600005,-34.6200739977,Árbol,2438,6,17,21,1,Oleáceas,Fraxinus,Fraxinus pennsylvanica,Fresno americano,Árbol Latifoliado Caducifolio,Exótico,14-017,CONSTITUCION,1,"Calvo, Carlos",0,0
+-58.3901634566,-34.6200181701,Árbol,2440,15,29,0,1,Oleáceas,Fraxinus,Fraxinus pennsylvanica,Fresno americano,Árbol Latifoliado Caducifolio,Exótico,14-017,CONSTITUCION,1,Solis,994,0
+-58.3901675583,-34.619941461799996,Árbol,2441,7,27,0,6,Moráceas,Ficus,Ficus benjamina,Ficus,Árbol Latifoliado Perenne,Exótico,14-017,CONSTITUCION,1,Solis,994,0
+-58.3901737657,-34.6198259035,Árbol,2442,5,9,0,1,Oleáceas,Fraxinus,Fraxinus pennsylvanica,Fresno americano,Árbol Latifoliado Caducifolio,Exótico,14-017,CONSTITUCION,1,Solis,0,0
+-58.3901766495,-34.6197701975,Árbol,2443,9,23,10,1,Oleáceas,Fraxinus,Fraxinus pennsylvanica,Fresno americano,Árbol Latifoliado Caducifolio,Exótico,14-017,CONSTITUCION,1,Solis,974,0
+-58.3901804185,-34.619699799,Árbol,2444,3,6,0,1,Oleáceas,Fraxinus,Fraxinus pennsylvanica,Fresno americano,Árbol Latifoliado Caducifolio,Exótico,14-017,CONSTITUCION,1,Solis,966,0
+-58.39018452,-34.6196231808,Árbol,2445,14,35,0,1,Oleáceas,Fraxinus,Fraxinus pennsylvanica,Fresno americano,Árbol Latifoliado Caducifolio,Exótico,14-017,CONSTITUCION,1,Solis,960,0
+-58.3901906157,-34.6195106873,Árbol,2446,8,13,10,1,Oleáceas,Fraxinus,Fraxinus pennsylvanica,Fresno americano,Árbol Latifoliado Caducifolio,Exótico,14-017,CONSTITUCION,1,Solis,950,0
+-58.3901950508,-34.6194266777,Árbol,2447,19,25,0,1,Oleáceas,Fraxinus,Fraxinus pennsylvanica,Fresno americano,Árbol Latifoliado Caducifolio,Exótico,14-017,CONSTITUCION,1,Solis,940,0
+-58.390198819700004,-34.619356279099996,Árbol,2448,7,17,13,1,Oleáceas,Fraxinus,Fraxinus pennsylvanica,Fresno americano,Árbol Latifoliado Caducifolio,Exótico,14-017,CONSTITUCION,1,Solis,930,0
+-58.3902014799,-34.6193068829,Árbol,2449,13,24,12,1,Oleáceas,Fraxinus,Fraxinus pennsylvanica,Fresno americano,Árbol Latifoliado Caducifolio,Exótico,14-017,CONSTITUCION,1,Solis,926,0
+-58.3902063576,-34.6192154819,Árbol,2450,14,30,9,1,Oleáceas,Fraxinus,Fraxinus pennsylvanica,Fresno americano,Árbol Latifoliado Caducifolio,Exótico,14-017,CONSTITUCION,1,Solis,924,0
+-58.390209683900004,-34.619152474699995,Árbol,2451,4,8,0,1,Oleáceas,Fraxinus,Fraxinus pennsylvanica,Fresno americano,Árbol Latifoliado Caducifolio,Exótico,14-017,CONSTITUCION,1,Solis,912,0
+-58.3901322787,-34.6190165844,Árbol,2453,13,35,0,1,Oleáceas,Fraxinus,Fraxinus pennsylvanica,Fresno americano,Árbol Latifoliado Caducifolio,Exótico,14-017,CONSTITUCION,1,Estados Unidos,0,0
+-58.3900401505,-34.6190087769,Árbol,2454,7,31,9,1,Oleáceas,Fraxinus,Fraxinus pennsylvanica,Fresno americano,Árbol Latifoliado Caducifolio,Exótico,14-017,CONSTITUCION,1,Estados Unidos,1690,0
+-58.389924145200006,-34.618998971799996,Árbol,2455,14,39,16,1,Oleáceas,Fraxinus,Fraxinus pennsylvanica,Fresno americano,Árbol Latifoliado Caducifolio,Exótico,14-017,CONSTITUCION,1,Estados Unidos,1680,0
+-58.389832016999996,-34.618991164200004,Árbol,2456,7,19,24,1,Oleáceas,Fraxinus,Fraxinus pennsylvanica,Fresno americano,Árbol Latifoliado Caducifolio,Exótico,14-017,CONSTITUCION,1,Estados Unidos,1666,0
+-58.3897398887,-34.6189834466,Árbol,2457,10,22,0,1,Oleáceas,Fraxinus,Fraxinus pennsylvanica,Fresno americano,Árbol Latifoliado Caducifolio,Exótico,14-017,CONSTITUCION,1,Estados Unidos,1666,0
+-58.3895986982,-34.6189714626,Árbol,2458,12,40,0,1,Oleáceas,Fraxinus,Fraxinus pennsylvanica,Fresno americano,Árbol Latifoliado Caducifolio,Exótico,14-017,CONSTITUCION,1,Estados Unidos,1648,0
+-58.38951496520001,-34.618964381,Árbol,2459,7,32,10,1,Oleáceas,Fraxinus,Fraxinus pennsylvanica,Fresno americano,Árbol Latifoliado Caducifolio,Exótico,14-017,CONSTITUCION,1,Estados Unidos,1634,0
+-58.3894312321,-34.6189572992,Árbol,2460,13,37,14,1,Oleáceas,Fraxinus,Fraxinus pennsylvanica,Fresno americano,Árbol Latifoliado Caducifolio,Exótico,14-017,CONSTITUCION,1,Estados Unidos,1634,0
+-58.3893236221,-34.618948219800004,Árbol,2461,11,21,0,1,Oleáceas,Fraxinus,Fraxinus pennsylvanica,Fresno americano,Árbol Latifoliado Caducifolio,Exótico,14-017,CONSTITUCION,1,Estados Unidos,1624,0
+-58.3892027107,-34.6189380505,Árbol,2462,5,14,0,1,Oleáceas,Fraxinus,Fraxinus pennsylvanica,Fresno americano,Árbol Latifoliado Caducifolio,Exótico,14-017,CONSTITUCION,1,Estados Unidos,1612,0
+-58.388979058000004,-34.6190837641,Árbol,2464,10,14,0,1,Oleáceas,Fraxinus,Fraxinus pennsylvanica,Fresno americano,Árbol Latifoliado Caducifolio,Exótico,14-017,CONSTITUCION,1,"Cevallos, Virrey",915,0
+-58.38897153520001,-34.619205361,Árbol,2465,7,20,9,1,Oleáceas,Fraxinus,Fraxinus pennsylvanica,Fresno americano,Árbol Latifoliado Caducifolio,Exótico,14-017,CONSTITUCION,1,"Cevallos, Virrey",0,0
+-58.3889670012,-34.6192765704,Árbol,2466,14,29,10,1,Oleáceas,Fraxinus,Fraxinus pennsylvanica,Fresno americano,Árbol Latifoliado Caducifolio,Exótico,14-017,CONSTITUCION,1,"Cevallos, Virrey",0,0
+-58.3889616903,-34.619363103400005,Árbol,2467,11,18,0,4,Tiliaceas,Tilia,Tilia viridis subsp. x moltkei,Tilo,Árbol Latifoliado Caducifolio,Exótico,14-017,CONSTITUCION,1,"Cevallos, Virrey",0,0
+-58.3889491915,-34.619562489699995,Árbol,2468,11,26,16,1,Oleáceas,Fraxinus,Fraxinus pennsylvanica,Fresno americano,Árbol Latifoliado Caducifolio,Exótico,14-017,CONSTITUCION,1,"Cevallos, Virrey",0,0
+-58.3889384615,-34.619734474,Árbol,2469,10,33,0,6,Moráceas,Ficus,Ficus benjamina,Ficus,Árbol Latifoliado Perenne,Exótico,14-017,CONSTITUCION,1,"Cevallos, Virrey",0,0
+-58.38893392560001,-34.6198078468,Árbol,2470,15,26,0,1,Oleáceas,Fraxinus,Fraxinus pennsylvanica,Fresno americano,Árbol Latifoliado Caducifolio,Exótico,14-017,CONSTITUCION,1,"Cevallos, Virrey",981,0
+-58.388929390600005,-34.6198801378,Árbol,2471,12,26,14,1,Oleáceas,Fraxinus,Fraxinus pennsylvanica,Fresno americano,Árbol Latifoliado Caducifolio,Exótico,14-017,CONSTITUCION,1,"Cevallos, Virrey",987,0
+-58.3873890025,-34.6248181531,Árbol,2473,13,37,10,1,Oleáceas,Fraxinus,Fraxinus pennsylvanica,Fresno americano,Árbol Latifoliado Caducifolio,Exótico,14-020,CONSTITUCION,1,Constitucion,1513,0
+-58.3874290189,-34.6248208822,Árbol,2474,8,15,19,1,Oleáceas,Fraxinus,Fraxinus pennsylvanica,Fresno americano,Árbol Latifoliado Caducifolio,Exótico,14-020,CONSTITUCION,1,Constitucion,1529,0
+-58.3875893025,-34.6248317989,Árbol,2475,12,34,0,1,Oleáceas,Fraxinus,Fraxinus pennsylvanica,Fresno americano,Árbol Latifoliado Caducifolio,Exótico,14-020,CONSTITUCION,1,Constitucion,1551,0
+-58.3880311184,-34.624861999400004,Árbol,2476,8,18,0,1,Oleáceas,Fraxinus,Fraxinus pennsylvanica,Fresno americano,Árbol Latifoliado Caducifolio,Exótico,14-020,CONSTITUCION,1,Constitucion,1571,0
+-58.3880937054,-34.6248662746,Árbol,2477,13,28,19,1,Oleáceas,Fraxinus,Fraxinus pennsylvanica,Fresno americano,Árbol Latifoliado Caducifolio,Exótico,14-020,CONSTITUCION,1,Constitucion,1573,0
+-58.3881512767,-34.6248701862,Árbol,2478,9,30,0,12,Leguminosas,Robinia,Robinia pseudoacacia,Acacia blanca,Árbol Latifoliado Caducifolio,Exótico,14-020,CONSTITUCION,1,Constitucion,1585,0
+-58.3882530079,-34.6248770996,Árbol,2479,7,24,15,1,Oleáceas,Fraxinus,Fraxinus pennsylvanica,Fresno americano,Árbol Latifoliado Caducifolio,Exótico,14-020,CONSTITUCION,1,Constitucion,0,0
+-58.3883414988,-34.6248139646,Árbol,2481,11,19,0,1,Oleáceas,Fraxinus,Fraxinus pennsylvanica,Fresno americano,Árbol Latifoliado Caducifolio,Exótico,14-020,CONSTITUCION,1,"Cevallos, Virrey",1396,0
+-58.3883467987,-34.6247406825,Árbol,2482,6,20,0,1,Oleáceas,Fraxinus,Fraxinus pennsylvanica,Fresno americano,Árbol Latifoliado Caducifolio,Exótico,14-020,CONSTITUCION,1,"Cevallos, Virrey",0,0
+-58.3883544162,-34.624636753699995,Árbol,2483,13,86,18,43,Leguminosas,Bauhinia,Bauhinia forticata,Pata de vaca  (Pezuña de vaca),Árbol Latifoliado Caducifolio,Nativo/Autóctono,14-020,CONSTITUCION,1,"Cevallos, Virrey",1378,0
+-58.3883716404,-34.624399240500004,Árbol,2484,10,26,0,43,Leguminosas,Bauhinia,Bauhinia forticata,Pata de vaca  (Pezuña de vaca),Árbol Latifoliado Caducifolio,Nativo/Autóctono,14-020,CONSTITUCION,1,"Cevallos, Virrey",1362,0

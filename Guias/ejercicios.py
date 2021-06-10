@@ -211,7 +211,7 @@ def g(s:str)->str:
     pre: s !null
     post: vr es igual a la inversa de un s dado
     '''
-    vr:str = ''
+    vr:str = ''                             
     i:int = 1
     while i < len(s):
         vr = vr + s[len(s)-i]

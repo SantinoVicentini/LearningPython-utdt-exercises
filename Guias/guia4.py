@@ -164,3 +164,16 @@ def primeraOcurrencia(elem:int, a:List[int]) -> int:
             break
     return vr
 print(primeraOcurrencia(2, [1,2,3,2,3]))
+
+from typing import List
+
+def numerosImpares(n:int) -> List[int]:
+    i:int=0
+    vr:List[int] = []
+    contador:List[int] = []
+    while i < n*n:
+        if i % 2 == 1:
+            contador.append(i)
+        i+=1
+    vr = contador[0:n]
+    return vr
