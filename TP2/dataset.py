@@ -1,10 +1,10 @@
 import csv
-from typing import List, Dict, Tuple, Set
+from typing import List, Dict, Tuple, Set, TextIO
 from arbol import Arbol
 
 class DataSetArboreo:
     def __init__(self, filename:str):
-        self.arboles:list[arbol] = []
+        self.arboles:list[Arbol] = []
 
         # Importamos los usuarios primero
         filename: TextIO = open(filename, 'r', encoding='utf-8')
@@ -56,16 +56,33 @@ class DataSetArboreo:
             i+=1
         return vr
 
+    def TotalArboles(self) -> List[str]:
+        i:int
+        vr:List[str] = []
+        for i in range(len(self.arboles)):
+            vr.append(self.arboles[i].nombre)
+        return vr
 
-
-    
-
+    def cantidad_por_especie(self) -> Dict[str,int]:
+        dict_cant:Dict[str, int] = dict()
+        arboles:List[str] = self.TotalArboles()
+        arbol:str
+        for arbol in arboles:
+            if arbol in dict_cant:
+                dict_cant[arbol] += 1
+            else:
+                dict_cant[arbol] = 1
+                
+        return dict_cant
     
 dataset = DataSetArboreo('arbolado-publico-lineal.csv')
-print(dataset.tamano())
-print(dataset.especies())
-print(dataset.barrios())
-print(dataset.arboles_de_la_especie('Acer negundo'))
+print(dataset.cantidad_por_especie())
+#print(dataset.tamano())
+#print(dataset.especies())
+#print(dataset.barrios())
+#print(dataset.arboles_de_la_especie('Acer negundo'))
+
+
 
 
 
